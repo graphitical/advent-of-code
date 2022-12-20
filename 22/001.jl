@@ -5,7 +5,7 @@ function maxk(a, k)
 end
 
 calorieList = zeros(1)
-open("./inputs/001.txt") do f
+open("./22/inputs/001.txt") do f
     elfNum = 1
     while ! eof(f)
         s = readline(f)
